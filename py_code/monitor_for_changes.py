@@ -102,7 +102,7 @@ if __name__ == '__main__':
                 message = f"New Token Found: {token} at {time_stamp}"
                 print(message)
                 send_alert(message, to_number=cfg['my_number'])
-                send_alert(message, to_number=cfg['kk_number'])
+                send_alert(message, to_number=cfg['ak_number'])
                 change_found = True
 
         # Get a new records, but dont spam endpoint
