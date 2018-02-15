@@ -1,0 +1,14 @@
+name: racrybu_env
+channels:
+- conda-forge
+- defaults
+dependencies:
+- certifi=2018.1.18=py36_0
+- pip=9.0.1=py36_1
+- python=3.6.4=0
+- setuptools=38.5.1=py36_0
+- vs2015_runtime=14.0.25420=0
+- wheel=0.30.0=py36_2
+- wincertstore=0.2=py36_0
+prefix: C:\Users\ranneyr\AppData\Local\Continuum\Anaconda3\envs\racrybu_env
+
