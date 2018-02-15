@@ -101,7 +101,8 @@ if __name__ == '__main__':
                 time_stamp = dt.datetime.now().strftime('%H:%M:%S')
                 message = f"New Token Found: {token} at {time_stamp}"
                 print(message)
-                send_alert(message)
+                send_alert(message, to_number=cfg['my_number'])
+                send_alert(message, to_number=cfg['kk_number'])
                 change_found = True
 
         # Get a new records, but dont spam endpoint
