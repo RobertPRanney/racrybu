@@ -67,3 +67,9 @@ if __name__ == '__main__':
         for token in tokens:
             out_file.write(f'{token}\n')
     print(f"{len(tokens)} tokens written to {cfg['current_symbol_file']}")
+
+
+    # Reset new token file
+    with open(cfg['symbol_write_file'], 'w') as out_file:
+        out_file.write("")
+        print("New Token File cleared")
